@@ -83,7 +83,7 @@ const Paste = () => {
                         </div>
 
                         <div className="flex flex-col justify-between items-start md:items-end h-full min-w-30 gap-2 md:gap-3">
-                            <div className="flex flex-wrap md:flex-col gap-2 md:gap-3 text-sm font-medium text-blue-600">
+                            <div className="flex flex-row gap-2 md:gap-3 text-sm font-medium text-blue-600">
                                 <span
                                     className="cursor-pointer hover:underline"
                                     onClick={() => navigate(`/?pasteId=${paste?._id}`)}
